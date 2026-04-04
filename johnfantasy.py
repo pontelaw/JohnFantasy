@@ -22,7 +22,7 @@ league = League(league_id=league_id, year=current_year, espn_s2 = _espn_s2, swid
 # housekeeping
 intents = discord.Intents.default()
 intents.message_content = True  # This is necessary to read message content
-bot = commands.Bot(command_prefix='!', intents = intents)
+bot = commands.Bot(command_prefix='!', intents = intents) 
 
 # events and commands
 @bot.event
